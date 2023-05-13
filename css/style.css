@@ -1,0 +1,237 @@
+.header{
+	background: #C81919;
+}
+.container{
+max-width: 1210px;
+margin: 0 auto	;
+}
+.container_header{
+	display: flex;
+justify-content: space-between;
+}
+.logo{
+font-family: 'Revalia';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 60px;
+text-align: center;
+color: #DF6F07;
+}
+.nav{
+margin: auto 0;
+}
+.menu{
+	display: flex;
+}
+.item_menu{
+	list-style: none;
+	margin-right: 50px;
+}
+.link_menu{
+	text-decoration: none;
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.1em;
+
+color: #000000;
+}
+.link_menu:hover{
+	color:orange;
+}
+/*----------Hero_block-----------*/
+.main{
+	background: #C81919;
+}
+.container_heroblock{
+	display: flex;
+justify-content: space_between;
+}
+.obl{
+	height: 526px;
+}
+.text_hb{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 33px;
+/* or 33px */
+color: #727272;
+}
+.about{
+	background: #E5E5E5;
+}
+.obl{
+	margin-right: auto;
+}
+.content_heroblock{
+	width: 50%;
+}
+.title_HD{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 79px;
+color: #000000;
+}
+.hero_block_btn{
+width: 225px;
+height: 51px;
+background: #34547A;
+}
+.container_about{
+	padding: 140px 0 33px 0;
+}
+.img_about{
+	background: url
+	border-radius: 65px;
+}
+.about_title{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+color: #000000;
+}
+.about_content{
+	display: flex;
+	justify-content: space-between;
+align-items: center;
+}
+.raitings{
+	width: 552px ;
+}
+.raiting_title{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+
+color: #000000;
+}
+.skills_name{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+}
+.skill_list{
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0;
+}
+.skills_full{
+	height: 4px;
+	width: 100%;
+	background: #E31616;
+}
+.skills_done{
+	height: 100%;
+	width: 80%;
+	background:#2FBB0C ;
+}
+/* видео */
+.video{
+	background: #EB8282;
+}
+.title_video{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+color: #000000;
+
+}
+.text_video{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 39px;
+text-align: center;
+color: #727272;
+}
+.iframe{
+	background: url(1_min.jpg);
+border-radius: 188px;
+padding-right: auto;
+padding-top: auto;
+width: 1122px;
+display:block;
+margin:0 auto;
+}
+					/*галерея*/											
+.item_gal{
+	list_style: none;
+}
+.gal_list{
+	margin:0;
+	padding:0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.item_gal{
+width: 25%;
+list_style: none;
+margin-top: -4px ;
+}
+.img__gal{
+	width: 100%;
+}
+.footer{
+	background: #34547A;
+height: 151px;
+}
+
+.container_left{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.creator_name{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+color: #FFFCFC;
+}
+.dop_info{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+color: #FFFCFC;
+}
+.netwok_list{
+	list-style: none;
+}
+.netwok{
+	display: flex;
+	margin-top: 65px;
+}
+
+.arrowUP{
+width: 60px;
+position: fixed;
+top:50;
+left:0;
+bottom: 0;
+margin: 20px;
+margin-bottom: 50px;
+}	
